@@ -5,8 +5,8 @@ Step 2: give colors to elements ✔️
 Step 3: resize images to a common size ✔️
 Step 4: use flexbox on:
     - full page ✔️
-    - header
-    - info
+    - header ✔️
+    - info ✔️
     - quote ✔️
     - prompt ✔️
     - footer ✔️
