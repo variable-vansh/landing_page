@@ -1,0 +1,25 @@
+.header, .footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sign-up{
+    background-color:#3882F6;
+    color: white;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
