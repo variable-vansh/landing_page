@@ -1,3 +1,12 @@
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 .header, .footer{
     background-color: #1F2937;
     color: white;
@@ -14,12 +23,75 @@ a{
     color: white;
 }
 
-.sign-up{
+button{
     background-color:#3882F6;
     color: white;
 }
 
-.quote-section{
-    background-color: #E5E7EB;
+img{
+    height:150px;
+    width:150px;
 }
 
+.header-img{
+    transform: rotate(90deg);
+    height: 300px;
+    width: 180px
+}
+
+.footer{
+    margin-top: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.prompt{
+    background-color: #3882F6;
+    margin: 60px 150px;
+    padding: 30px 100px;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prompt-signup{
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 8px 40px;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.big-prompt-text{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding: 80px 350px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+}
+
+.quote-source{
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
